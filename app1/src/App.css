@@ -1,0 +1,83 @@
+#root {
+  
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.regbox{
+  border: 10px solid rgb(218, 19, 19);
+  padding: 30px;
+  border-color: #b727c1aa;
+  background-color: rgb(151, 139, 139);
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+#login{
+  border: 10px solid rgb(201, 123, 123);
+  background-color: rgb(130, 105, 105);
+  border-radius: 50px;
+  margin-bottom: 200px;
+  border-style: groove;
+  border-style: ridge;
+  padding-bottom: 40px;
+  font-family: monospace;
+  font-size: large;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 40px;
+}
+#inputbox{
+  padding-left: 30px;
+  border-radius: 30px;
+}
+#loginlabel{
+  margin-left: 0px;
+  
+}
+#button{
+  background-color: black;
+}
+#textfield{
+  border: 50px;
+}
+regbox{
+  border: 20px solid white;
+  padding: 30px;
+  border-color: #b727c1aa;
+  background-color: rgb(151, 139, 139);
+}
